@@ -6,7 +6,7 @@ from groq import Groq, APITimeoutError, APIConnectionError
 
 # Initialize the Groq client with the API key from the environment
 # client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
-client = Groq(api_key='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')
+client = Groq(api_key='')
 
 # Function to read the prompt from the text file for the chatbot interaction
 def load_prompt(filename):
